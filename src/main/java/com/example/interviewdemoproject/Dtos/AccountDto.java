@@ -18,6 +18,7 @@ import java.math.BigDecimal;
 public class AccountDto {
     @Nullable
     private BigDecimal id;
+    private BigDecimal num;
     @JsonAlias({"customerId", "customer_id"})
     private BigDecimal customerId;
     private BigDecimal balance;
